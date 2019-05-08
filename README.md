@@ -11,7 +11,7 @@ Imprime la frase con caracteres de tamaño 5x5 por la cónsola usando el caracte
 
 **Opción 2** Imprime todo el abecedario de tamaño 5x5, usando el caracter asterico *
 
-**Opción 3** Sale de la aplicación
+**Opción 3** Terminación de la aplicación
 
 ![Muestra de ejemplo](https://gutoccs.files.wordpress.com/2019/05/letras_consola.jpg)
 
@@ -20,11 +20,15 @@ Imprime la frase con caracteres de tamaño 5x5 por la cónsola usando el caracte
 ## ¿Qué se practica con este proyecto?
 
 * Programación Orientada a Objetos
+* Utilización de módulo, aunque realmente se importa como una clase
 * Encapsulamiento (privado) de métodos
 * Estructura de Datos (Listas y Diccionarios)
 * Entrada y Salida de Datos
+* Estructuras de control (If-Elif-Else)
 * Estructuras iterativas (For y While)
 * Excepciones (Try-Except)
+* Cast de una variable
+* Docstrings
 
 ## Archivos
 

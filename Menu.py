@@ -13,17 +13,16 @@ class Menu:
         """
         
         while True:
-            opcion = input("""
+            
+            try:
+                opcion = int(input("""
             Menú de Letras Cónsola
 
             1. Ingresar frase a Imprimir
             2. Imprimir todo el abecedario
             3. Salir
             
-            Opción: """)
-            
-            try:
-                opcion = int(opcion)
+            Opción: """))
                 if opcion == 1:
                     self.opcion_1()
                 elif opcion == 2:
