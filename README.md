@@ -47,3 +47,5 @@ $ python Main.py
 ## ¿Dónde me pueden conseguir o buscar una explicación del proyecto?
 
 Mi **Blog Personal** es https://gutoccs.wordpress.com/
+
+El link del Artículo en mi Blog donde explico el código es https://gutoccs.wordpress.com/2019/05/08/impresion-caracteres-5x5-ejercicio-completo-python-parte-i/
