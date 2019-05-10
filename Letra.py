@@ -1,6 +1,6 @@
 class Letra:
     """
-    Clase que contiene el formato de cada letra de tamaño 5*5
+    Clase que gestiona los caracteres de impresión de la frase de tamaño 5x5
     """
 
     #[[, , , , ], [, , , , ], [, , , , ], [, , , , ], [, , , , ]]

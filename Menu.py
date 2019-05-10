@@ -38,7 +38,7 @@ class Menu:
 
     def opcion_1(self):
         """
-        Opción que recoge las opciones para imprimir en pantalla
+        Opción que recoge los datos para imprimir en pantalla
         """
 
         frase = input("\nIngrese la frase a imprimir: ")
