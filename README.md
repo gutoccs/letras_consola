@@ -29,6 +29,12 @@ Imprime la frase con caracteres de tamaño 5x5 por la cónsola usando el caracte
 * Excepciones (Try-Except)
 * Cast de una variable
 * Docstrings
+* Conexión a una base de datos SQLite
+* Algunas sentencias en SQL
+* Verificación y creación de carpetas
+* Manejo de archivos
+* Manejo de archivos binarios
+* Manipulación de fechas
 
 ## Archivos
 
@@ -48,4 +54,7 @@ $ python Main.py
 
 Mi **Blog Personal** es https://gutoccs.wordpress.com/
 
-El link del Artículo en mi Blog donde explico el código es https://gutoccs.wordpress.com/2019/05/08/impresion-caracteres-5x5-ejercicio-completo-python-parte-i/
+Los Artículos en mi Blog donde explico el código son:
+
+* https://gutoccs.wordpress.com/2019/05/08/impresion-caracteres-5x5-ejercicio-completo-python-parte-i/
+* https://gutoccs.wordpress.com/2019/05/15/impresion-caracteres-5x5-ejercicio-completo-python-parte-ii/

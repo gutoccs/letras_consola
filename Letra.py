@@ -1,3 +1,5 @@
+from Modelo import Modelo
+
 class Letra:
     """
     Clase que gestiona los caracteres de impresión de la frase de tamaño 5x5
@@ -69,7 +71,7 @@ class Letra:
         Imprime por cónsola la frase y/o palabra que haya recibido.
         """
         
-        retorno, frase, mensaje = self.__validar_frase(frase)
+        retorno, frase, mensaje = self.__validar_frase(frase, caracter)
         
         if retorno == False:
             print("\n{}\n".format(mensaje))
@@ -91,10 +93,14 @@ class Letra:
                 print("  ", end="")
             print("")
         
+        #Se procede a guardar en la BD la frase impresa
+        modelo = Modelo()
+        modelo.guardar_frase(frase, caracter)
+
         self.mensaje_final()
 
 
-    def __validar_frase(self, frase):
+    def __validar_frase(self, frase, caracter):
         """
         Valida la frase antes de la impresión
         """
@@ -106,6 +112,12 @@ class Letra:
 
         if len(frase) > 24:
             return False, frase, "La frase excede los 24 caracteres"
+
+        if caracter == "'" or caracter == '"':
+            return False, frase, "El caracter introducido es inválido"
+
+        if len(caracter) > 1:
+            return False, frase, "El caracter introducido tiene una longitud mayor a 1"
 
         frase = frase.upper()
 

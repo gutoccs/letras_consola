@@ -1,4 +1,5 @@
 from Letra import Letra
+from Modelo import Modelo
 
 class Menu:
     """
@@ -6,6 +7,7 @@ class Menu:
     """
 
     letra = Letra()
+    modelo = Modelo()
 
     def menu(self):
         """
@@ -20,7 +22,10 @@ class Menu:
 
             1. Ingresar frase a Imprimir
             2. Imprimir todo el abecedario
-            3. Salir
+            3. Mostrar las frases impresas
+            4. Exportar las frases impresas en un archivo plano
+            5. Exportar las frases impresas en un archivo binario
+            6. Salir
             
             Opción: """))
                 if opcion == 1:
@@ -28,6 +33,12 @@ class Menu:
                 elif opcion == 2:
                     self.opcion_2()
                 elif opcion == 3:
+                    self.opcion_3()
+                elif opcion == 4:
+                    self.opcion_4()
+                elif opcion == 5:
+                    self.opcion_5()
+                elif opcion == 6:
                     print("\n¡Hasta luego!")
                     break
                 else:
@@ -44,7 +55,7 @@ class Menu:
         frase = input("\nIngrese la frase a imprimir: ")
         caracter = input("Ingrese el caracter que desea que se muestre: ")
         print("")
-
+        
         self.letra.impresion_frase(frase, caracter)
 
 
@@ -52,5 +63,25 @@ class Menu:
         """
         Opción que manda a imprimir todo el abecedario
         """
-
         self.letra.impresion_abecedario()
+
+    
+    def opcion_3(self):
+        """
+        Opción que muestra por pantalla las frases impresas en el sistema
+        """
+        self.modelo.imprimir_frases_guardadas()
+
+
+    def opcion_4(self):
+        """
+        Opción que permite exportar las frases impresas en el proyecto en un archivo plano (.txt)
+        """
+        self.modelo.guardar_frases_archivo_plano()
+
+
+    def opcion_5(self):
+        """
+        Opción que permite exportar las frases impresas en el proyecto en un archivo binario (.pckl)
+        """        
+        self.modelo.guardar_frases_archivo_binario()
