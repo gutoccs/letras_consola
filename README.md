@@ -11,11 +11,17 @@ Imprime la frase con caracteres de tamaño 5x5 por la cónsola usando el caracte
 
 **Opción 2** Imprime todo el abecedario de tamaño 5x5, usando el caracter asterico *
 
-**Opción 3** Terminación de la aplicación
+**Opción 3** Imprime por pantalla todas las frases impresas en la aplicación, junto a otros datos.
 
-![Muestra de ejemplo](https://gutoccs.files.wordpress.com/2019/05/letras_consola.jpg)
+**Opción 4** Exporta en un archivo .txt todas las frases impresas en la aplicación, junto a otros datos.
 
-## Este código lo realicé con el fin de practicar algunos aspectos del lenguaje de progrmación **Python**
+**Opción 5** Exporta en un archivo .pckl todas las frases impresas en la aplicación, junto a otros datos.
+
+**Opción 6** Terminación de la aplicación
+
+![Muestra de ejemplo](https://gutoccs.files.wordpress.com/2019/05/letras_consola_2.jpg)
+
+## Este código lo realicé con el fin de practicar algunos aspectos del lenguaje de programación **Python**
 
 ## ¿Qué se practica con este proyecto?
 
