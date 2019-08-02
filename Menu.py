@@ -1,6 +1,7 @@
 from Letra import Letra
 from Modelo import Modelo
 
+
 class Menu:
     """
     Clase que gestiona el menú de la aplicación
@@ -46,7 +47,6 @@ class Menu:
             except ValueError:
                 print("\nLa opción no es un número\nIntente nuevamente\n")
 
-
     def opcion_1(self):
         """
         Opción que recoge los datos para imprimir en pantalla
@@ -58,14 +58,12 @@ class Menu:
         
         self.letra.impresion_frase(frase, caracter)
 
-
     def opcion_2(self):
         """
         Opción que manda a imprimir todo el abecedario
         """
         self.letra.impresion_abecedario()
 
-    
     def opcion_3(self):
         """
         Opción que muestra por pantalla las frases impresas en el sistema
